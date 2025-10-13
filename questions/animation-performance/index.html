@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Animation Stress Test</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <h1>Experience the Float</h1>
+      <p>Scroll to replay the entry animation and inspect performance metrics.</p>
+      <section class="card-stack">
+        <article class="card" data-delay="0">
+          <h2>Adaptive Layouts</h2>
+          <p>Layouts morph with your device. Unfortunately, the animation stutters.</p>
+        </article>
+        <article class="card" data-delay="150">
+          <h2>Motion Principles</h2>
+          <p>Friendly easing, predictable timing, minimal jank. That's the goal.</p>
+        </article>
+        <article class="card" data-delay="300">
+          <h2>GPU Ready</h2>
+          <p>We should be using the compositor. Right now, we're hammering layout.</p>
+        </article>
+      </section>
+    </main>
+    <script src="animation.js"></script>
+  </body>
+</html>

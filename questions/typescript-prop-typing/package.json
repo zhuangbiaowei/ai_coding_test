@@ -1,0 +1,13 @@
+{
+  "name": "typescript-prop-typing-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "tsd"
+  },
+  "devDependencies": {
+    "react": "18.2.0",
+    "tsd": "0.29.0",
+    "typescript": "5.3.3"
+  }
+}
